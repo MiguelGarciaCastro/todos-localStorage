@@ -1,3 +1,48 @@
-body {
-    background: lightcyan;
+:root {
+    --light: lightcyan;
 }
+
+
+
+body {
+    background: var(--light);
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+font-size: 38px;
+padding: 10px;
+
+}
+
+H1 {
+text-align: center;
+}
+
+Input[type="submit"] {
+    background-color: var(--light);
+    color: darkgray;
+    cursor: pointer;
+
+}
+
+
+.container {
+    background: white;
+    margin: 60px auto;
+    max-width: 600px;
+    padding: 15px;
+
+}
+
+#new-todo-form{
+    display: flex;
+}
+
+#new-todo{
+    flex-grow: 1;
+}
+
+
+
